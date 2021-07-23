@@ -12,8 +12,8 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Gujjugaming2k/RDP/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Gujjugaming2k/RDP/wallpaper.png -OutFile wallpaper.png
+        Invoke-WebRequest https://raw.githubusercontent.com/Gujjugaming2k/RDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Gujjugaming2k/RDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/Gujjugaming2k/RDP/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Gujjugaming2k/RDP/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
